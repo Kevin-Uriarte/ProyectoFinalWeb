@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>TextQueue Analyzer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="container">
+    <h1>TextQueue Analyzer</h1>
+    <p class="subtitle">Procesamiento distribuido con FastAPI, Redis, Docker y Workers</p>
+
+    <section class="card">
+      <h2>Introducir Texto</h2>
+
+      <textarea id="textInput" placeholder="Escribe un texto para analizar..."></textarea>
+
+      <button id="sendBtn">Analizar texto</button>
+    </section>
+
+    <section class="card">
+      <h2>Textos</h2>
+      <div id="tasks"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
